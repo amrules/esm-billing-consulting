@@ -42,6 +42,8 @@
   
   <div class="container">
     <div class="section">
+        <div class="row">
+            <div class="col s8">
 
       <form name="contact" method="POST" netlify>
         <p>
@@ -51,11 +53,25 @@
           <label>Your Email: <input type="email" name="email" /></label>
         </p>
         <p>
-          <label>Your Role: <select name="role[]" multiple>
-            <option value="leader">Leader</option>
-            <option value="follower">Follower</option>
-          </select></label>
+          <label>Your Phone Number: <input type="tel" name="tel" /></label>
         </p>
+        <p>
+          <label>Interest: <select name="interest[]">
+            <option value="billing-service">Billing Service</option>
+            <option value="free-cost-analysis">Free Cost Analysis</option>
+            <option value="training">Training</option>
+            <option value="other">Other</option>
+          </select>
+          </label>
+        </p>
+        <p>
+            <label>Status: <select name="status[]">
+              <option value="existing-esm-client">Existing ESM Client</option>
+              <option value="new-practice">New Practice</option>
+              <option value="other">Other</option>
+            </select>
+            </label>
+          </p>
         <p>
           <label>Message: <textarea name="message"></textarea></label>
         </p>
@@ -63,7 +79,8 @@
           <button type="submit">Send</button>
         </p>
       </form>
-
+      </div>
+      </div>
     </div>
   </div>
 
