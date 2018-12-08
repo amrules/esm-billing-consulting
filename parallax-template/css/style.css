@@ -87,20 +87,20 @@ footer.page-footer {
 
 @media only screen and (max-width : 992px) {
   .resize-container {
-    margin-left: 10%;
-    margin-right: 10%;
+   
     background-color:rgba(255, 255, 255, 0.5);
     height: 100%;
+    width: 85%;
   }
  
 }
 
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width : 601px) {
   .resize-container {
-    margin-left: 10%;
-    margin-right: 10%;
+   
     background-color:rgba(255, 255, 255, 0.5);
     height: 100%;
+    width: 85%;
   }
  
 }
