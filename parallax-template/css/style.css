@@ -66,6 +66,25 @@ footer.page-footer {
 
 .top-nav {
   height: 65px;
+
+  
+}
+
+@media only screen and (max-width : 992px) {
+  .resize-logo {
+    left: 90%;
+
+  }
+
+ 
+}
+
+@media only screen and (max-width : 601px) {
+  .resize-logo {
+    left: 80%;
+
+  }
+
 }
 
 /* TOP HERO   */
@@ -87,8 +106,8 @@ footer.page-footer {
 
 @media only screen and (max-width : 992px) {
   .resize-container {
-   
-    background-color:rgba(255, 255, 255, 0.5);
+  
+    background-color:rgba(255, 255, 255, 0.68);
     height: 100%;
     width: 100%;
   }
@@ -99,7 +118,7 @@ footer.page-footer {
 @media only screen and (max-width : 601px) {
   .resize-container {
    
-    background-color:rgba(255, 255, 255, 0.5);
+    background-color:rgba(255, 255, 255, 0.68);
     height: 100%;
     width: 100%;
   }
