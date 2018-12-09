@@ -190,3 +190,11 @@ ul.browser-default li {
 .contact-form {
   max-width: 600px;
 }
+
+.testimonial-container {
+  max-width: 800px;
+}
+
+.resize-box {
+  position: relative !important;
+}
