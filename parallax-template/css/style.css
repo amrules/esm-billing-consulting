@@ -198,3 +198,7 @@ ul.browser-default li {
 .resize-box {
   position: relative !important;
 }
+
+.hidden {
+  display: none; 
+}
